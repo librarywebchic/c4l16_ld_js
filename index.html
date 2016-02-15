@@ -1,0 +1,33 @@
+<!doctype html>
+<html ng-app="jsonld-test">
+  <head>
+    <script src= "node_modules/rdflib/dist/rdflib.js"></script>
+    <script src="build/_bower.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/controllers.js"></script>
+    <link rel="stylesheet" href="build/_bower.css">
+  </head>
+  <body ng-controller="ldcontroller">
+  <form ng-submit="submit()">
+  <label for="id">ID: <input name="id" ng-model="entity.id" size=40></label>
+  <input type="submit" id="submit" value="Submit" />
+  </form>
+  
+    <h2 ng-show="name">Title: {{name}}</h2>
+    <p ng-show="author_name">Author: {{author_name}}</p>
+    <p ng-show="subjects">Subjects:</p>
+    <ul ng-show="subjects">
+        <li ng-repeat="subject in subjects">
+        {{subject.value}}
+        </li>
+      </ul>
+    
+    <p ng-show="descriptions">Descriptions:</p>
+    <ul ng-show="descriptions">
+        <li ng-repeat="description in descriptions">
+        {{description}}
+        </li>
+    </ul> 
+    
+</body>
+</html>
