@@ -23,7 +23,9 @@ Go to http://nodejs.org/ download and install Node.js
 ```bash
 $ npm install
 $ npm install -g bower
-$ npm install -g grunt-cli
+$ npm install grunt-cli
+$ npm install grunt-contrib-uglify
+$ npm install grunt-bower-concat
 $ bower install
 $ grunt
 
