@@ -1,5 +1,5 @@
 {
-  "name": "angularLDTest",
+  "name": "c4l16l_d_js",
   "authors": [
     "Karen Coombs <librarywebchic@gmail.com>"
   ],
@@ -12,7 +12,7 @@
     "demo"
   ],
   "license": "Apache 2.0",
-  "homepage": "https://github.com/librarywebchic/angular-ld-experiment",
+  "homepage": "https://github.com/librarywebchic/c4l16_ld_js",
   "private": true,
   "ignore": [
     "**/.*",
